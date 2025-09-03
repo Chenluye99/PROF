@@ -36,3 +36,6 @@ The number to remove in correct and incorrect group is to balance the correct-in
   <img src="fig/Qwen2.5-Math-1.5B_data_temp1.0_comparison_main.png" width="45%" />
   <img src="fig/7B_model_comparison_temp1.0_main.png" width="45%" />
 </p>
+
+### Main Takeways:
+1. 
