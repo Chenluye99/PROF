@@ -58,7 +58,7 @@ _**Table 1:** Performance of different algorithms across five benchmarks includi
 
 1. **PROF-GRPO v.s. Vanilla GRPO:** Compared to vanilla GRPO, PROF-GRPO consistently improves final accuracy by around $2\\%$. More improtantly, PROF-GRPO can effectively differentiate and filter out the flawed responses with correct final answer and reduce misleading gradients, while ORM cannot distinguish those samples. An example of flawed responses filtered out by PROF is presented below.
 <p align="center">
-  <img src="fig/Example_flaw_process.png" width="72%" />
+  <img src="fig/Example_flaw_process.png" width="90%" />
 </p>
 
 2. **PROF-GRPO v.s. Blend:** Blend denotes naively mixing PRM with ORM in the objective and is a common way to apply PRM into RL training. As shown in the figure and table above, Blend is outperformed by PROF-GRPO by over $4\\%$ and suffers from severe reward hacking due to the mixing gradients of PRM and ORM.
