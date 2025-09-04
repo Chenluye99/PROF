@@ -70,7 +70,7 @@ _**Table 1:** Performance of different algorithms across five benchmarks includi
   <img src="fig/claude_pref_bar.png" width="20%" />
 </p>
 
-4. **Filter Both or Correct** Filtering only correct samples with consistency and incorrect samples randomly (Filter-Correct) performs comparably to filtering both correct and incorrect samples with consistency (Filter-Both), while "Both" converges more efficiently. This implies that the quality of correct responses is the crucial part for online training. Moreover, through experiemnts on more rollout numbers and LLaMA-3.2-3B-instruct, we find that for robustness, especially when the PRM is untrustworthy or out-of-distribution, Filter-correct is the safer option as it constrains the PRM's influence.
+4. **Filter separately:** By comparing the performance with w/o Separation, which ranks and filters correct and incorrect samples together, we find that separate then into two subgroups and balance the correct/incorrect ratio is essential. Additionally, filtering only correct samples with consistency and incorrect samples randomly (Filter-Correct) performs comparably to filtering both correct and incorrect samples with consistency (Filter-Both), while "Both" converges more efficiently. This implies that the quality of correct responses is the crucial part of online training. Moreover, through experiments on more rollout numbers and LLaMA-3.2-3B-instruct, we find that for robustness, especially when the PRM is untrustworthy or out-of-distribution, Filter-correct is the safer option as it constrains the PRM's influence.
 
 <p align="center">
   <img src="fig/Qwen2.5-Math-1.5B_data_temp1.0_comparison_+-.png" width="45%" />
