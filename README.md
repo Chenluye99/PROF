@@ -1,7 +1,7 @@
 <div align="center">
 
 # Beyond Correctness: Harmonizing Process and Outcome Rewards through RL Training
-
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.03403v1) 
 </div>
 
 ## Table of Contents
